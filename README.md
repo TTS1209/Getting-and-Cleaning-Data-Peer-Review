@@ -1,23 +1,16 @@
 # Getting-and-Cleaning-Data-Peer-Review
 
+Hi, this is my submission for Getting and Cleaning Data peer review assignment.
+As per requested, the README.md is needed to describe how the script (run_analysis.R) works in the assignment. 
+The detailed explanatory variables are displayed in CODEBOOK.md .
 
-Synopsis
+These are the steps involved in running the scripts:
+1. Setup working directory.
+2. Download and unzip the dataset
+3. Read training tables, testing tables, feature vector and activity tables.
+4. Assign column names for x_train, y_train, subject_train, x_test, y_test, subject_test and activity labels.
+5. Merge the train and test data together.
+6. Create vector for ID, mean and standard deviation for train and test dataset.
+7. Provide description for the activities by merging the activities ID.
+8. Create tidy dataset includes mean of each activities and each subject.
 
-The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. Required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that performed to clean up the data called CodeBook.md.
-Data
-
-Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
-
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
-Here are the data for the project:
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Assignment
-
-Student have to create one R script called run_analysis.R that does the following:
-* Merges the training and the test sets to create one data set.
-* Extracts only the measurements on the mean and standard deviation for each measurement.
-* Uses descriptive activity names to name the activities in the data set.
-* Appropriately labels the data set with descriptive variable names.
-* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
