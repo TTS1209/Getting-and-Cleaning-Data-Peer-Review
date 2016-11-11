@@ -1,6 +1,7 @@
 CODEBOOK.md for Dataset Human Activity Recognition Using Smartphones - Tidy Data
 
 Hi, this CODEBOOK.md is to display the variables contained in the dataset. 
+
 To know more about how the script work may refer to README.md and run_analysis.R under my directory. 
 
 ID Variables:
